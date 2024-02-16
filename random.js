@@ -8,7 +8,7 @@ let z = "you lost";
 
 btn.addEventListener('click', function(){
     let compmove = Math.floor(Math.random() * 3) + 1;
-    if (compmove === 2){
+    if (1>=compmove >= 2){
         one.innerHTML = x;
     }else {
         two.innerHTML= z;

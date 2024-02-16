@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #btn {
+            margin: 10px;
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: slategray;
+            border: none;
+            cursor: pointer;
+            color:white;
+
+        }
+        #btn:disabled {
+            cursor: not-allowed;
+            background-color: slategrey;
+        }
+        #btn:hover {
+            background-color: blue;
+            font-weight: bold;
+            color: white;
+            font-family: Arial;
+        }
+        #content {
+            background-color: aquamarine;
+            margin: 15px;
+            width: 350px;
+            height: 300px;
+        }
+        #link {
+            text-decoration: none;
+        }
+        #check {
+            margin-top: 20px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="content">
+        <h3>4.Which languages are used for front-end web development</h3>
+        <input type="radio" name="quiz4" id="python">
+        <label for="python">python programming</label><br>
+        <input type="radio" name="quiz4" id="java">
+        <label for="java">Java programming</label><br>
+        <input type="radio" name="quiz4" id="php">
+        <label for="php">php programming</label><br>
+        <input type="radio" name="quiz4" id="javascript">
+        <label for="javascript">javascript programming</label><br>
+
+        <input type="checkbox" id="check">
+        <label for="check">I agre to the <a href="" id="link">Terms and Conditions</a></label><br>
+
+        <button id="btn">Next Quiz</button>
+    </div>
+    <script src="radio-button.js"></script>
+
+</body>
+</html>
